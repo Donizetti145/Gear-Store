@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(39, 39, 39);
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    /* cor da barra de arrastar */
+    background-color: black;
+    /*Comando de arredondar bordas*/
+    border-radius: 20px;
+    /* borda da barra*/
+    border: 0.5px solid rgb(129, 2, 168);
+}
+
+
+/*cabelho com nav*/
+
+.cabecalho {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0 0 2rem black;
+    flex-direction: row;
+    padding: 20px;
+    font-size: 25px;
+    color: blueviolet;
+    cursor: pointer;
+    padding-left: 2rem;
+    list-style-type: none;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu {
+    display: flex;
+    gap: 32px
+}
+
+.mouseimg img {
+    height: 95px;
+}
+
+
+/*Banners*/
+
+.imgheader {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.imagem2 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho-item {
+    text-decoration: none;
+}
+
+
+/*Container meio*/
+
+.conteudo-meio {
+    border: 3px solid black;
+    word-break: unset
+}
+
+
+/*Sessão G Pro*/
+
+.sessao-gpro {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgba(195, 193, 193, 0.547);
+}
+
+.nome-gpro {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    width: 1000px;
+    margin-bottom: 15px;
+}
+
+.texto-gpro {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 2vh;
+    word-wrap: normal;
+}
+
+.mousesuper {
+    height: 200px;
+}
+
+.preco {
+    padding-top: 34px
+}
+
+.preco h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/*Botão de comprar*/
+
+.botao-comprar {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    justify-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(90, 31, 239);
+    transition: 0.30s;
+    border: 2px solid;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+}
+
+
+/*Animação de botão*/
+
+button:hover,
+button:focus {
+    border-color: rgb(131, 40, 223);
+    color: black;
+}
+
+.botao-comprar:hover,
+.botao-comprar:focus {
+    box-shadow: 0 0 0.5em 0.5em -0.4 rgb(0, 0, 0);
+    transform: translateY(-.25em);
+}
+
+
+/*Maring de divs*/
+
+.todo-gpro {
+    margin-left: 1vh;
+}
+
+.botao-superligth {
+    margin-top: 1vh;
+}
+
+.botao-delux {
+    margin-top: 1vh;
+}
+
+.botao-comprar:hover {
+    box-shadow: 0 0 5px 0 rgb(46, 14, 46) inset, 0 0 7px 3px rgba(46, 14, 46);
+}
+
+
+/*Sessão Delux*/
+
+.delux {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-top: 0.4px solid black;
+    margin-top: 50px;
+}
+
+.todo-delux {
+    margin-left: 1vh;
+}
+
+.nome-delux {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    width: 1000px;
+    margin-bottom: 15px;
+}
+
+.rodape {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.final {
+    font-size: 50px;
+}
